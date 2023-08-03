@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import classes from "./CountTags.module.css";
 
@@ -27,10 +27,6 @@ const CountTags = () => {
     setShowTable(true); // Mostra a tabela após contar as tags
     setShowSavedTable(false); // Esconde a tabela com as contagens salvas
   };
-
-  useEffect(() => {
-    countTags();
-  }, []);
 
   const clearFilter = () => {
     setShowTable(false); // Esconde a tabela ao limpar o filtro
