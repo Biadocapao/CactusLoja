@@ -1,0 +1,101 @@
+/* CountTags.module.css */
+
+.countTagsContainer {
+  margin: 20px;
+}
+
+/* Estilos para a tabela de contagens recentes */
+.tagsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tagsTable th,
+.tagsTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.tagsTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tagsTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tagsTable tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para o botão Consultar */
+.btnCountTags,
+.btnRefresh,
+.btnClearFilter,
+.btnSaveTags,
+.btnFetchTags {
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #92e591;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnSaveTags {
+  background-color: #28a745;
+}
+
+.btnClearFilter {
+  background-color: #92e591;
+}
+
+.btnCountTags:hover,
+.btnRefresh:hover,
+.btnClearFilter:hover,
+.btnSaveTags:hover,
+.btnFetchTags:hover {
+  background-color: #0056b3;
+}
+
+.btnCountTags:active,
+.btnRefresh:active,
+.btnClearFilter:active,
+.btnSaveTags:active,
+.btnFetchTags:active {
+  background-color: #0056b3;
+  transform: translateY(1px);
+}
+
+/* Estilos para a tabela de contagens salvas */
+.savedTagsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f4bbbb; /* Cor de fundo para a tabela de contagens salvas */
+}
+
+.savedTagsTable th,
+.savedTagsTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.savedTagsTable th {
+  background-color: #007bff; /* Cor de fundo para o cabeçalho da tabela de contagens salvas */
+  color: #fff;
+}
+
+.savedTagsTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.savedTagsTable tr:hover {
+  background-color: #ddd;
+}
