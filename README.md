@@ -16,6 +16,7 @@ O website foi feito, principalmente, para a prática de hooks como useContext e 
 - Cards de produto com preço, botão de adicionar ao carrinho e quantidade desejada.
 - Carrinho com uma lista de produtos adicionados e opções de remover produto e alterar quantidade.
 - Campo de busca e de conta do usuário, ambos apenas para estilização.
+- Campos de contar tags presentes no site, lançar no banco de dados e realizar a consulta.
 - e mais!  
 
 ACESSE:https://github.com/Biadocapao/
